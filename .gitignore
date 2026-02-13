@@ -3,3 +3,4 @@ __pycache__
 .env
 dados/
 *.csv
+BANCO_VETORIAL

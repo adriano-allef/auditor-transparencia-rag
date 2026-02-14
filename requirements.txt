@@ -5,6 +5,7 @@ torchvision
 torchaudio
 pandas
 langchain
+langchain-core
 langchain-community
 langchain-google-genai
 sentence-transformers

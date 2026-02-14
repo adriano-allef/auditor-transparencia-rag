@@ -99,3 +99,9 @@ O primeiro passo. Ele usa a biblioteca `pandas` para ler o CSV bruto do governo.
 - **Isolamento (`.venv`)**: Sempre use o ambiente virtual para as bibliotecas não bagunçarem seu Windows.
 - **Segurança (`.env`)**: Suas chaves de API são secretas. Elas ficam no `.env` e o Git foi ensinado a ignorar esse arquivo.
 - **Versão CPU**: IA pesada gosta de placa de vídeo (GPU), mas como estamos no notebook, forçamos tudo para rodar no processador (CPU) para evitar erros de DLL.
+
+## ⚖️ Licença e Isenção de Responsabilidade
+
+Este projeto é distribuído sob a **Licença Apache 2.0**. Ele foi desenvolvido com fins estritamente **didáticos** e para demonstração técnica de arquiteturas de **IA Agêntica**, **RAG** e **MCP**. 
+
+O software é fornecido "como está" (*as is*), sem garantias de qualquer tipo, expressas ou implícitas. Dado que a ferramenta utiliza modelos probabilísticos (LLMs), o autor não se responsabiliza por eventuais alucinações, erros de análise ou pelo uso indevido das informações extraídas. A responsabilidade pelo uso ético dos dados e pela conformidade com as normas do Portal da Transparência é inteiramente do usuário.

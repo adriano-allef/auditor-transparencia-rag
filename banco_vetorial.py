@@ -1,5 +1,6 @@
 import pandas as pd
 import glob
+import shutil
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
@@ -8,6 +9,13 @@ import os
 #1. Configuração de Caminhos (Infraestrutura)
 PASTA_DADOS = "dados"
 PASTA_BANCO = "BANCO_VETORIAL" #Onde o Chroma vai salvar os arquivos
+
+# =======================================================================
+# MÓDULO DE LIMPEZA (Evita dados duplicados)
+# =======================================================================
+if os.path.exists(PASTA_BANCO):
+    print(f"🧹 Limpando banco de dados antigo ({PASTA_BANCO})...")
+    shutil.rmtree(PASTA_BANCO) # Vai apagar a pasta inteira e tudo o que tiver dentro dela.
 
 print("\n ⚙️ Iniciando a Pipeline de Ingestão de Dados em lote...\n")
 

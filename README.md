@@ -129,3 +129,9 @@ Solução de Código: Implementar um parser no output **(resposta['messages'][-1
 - Gestão de Segredos (.env e .gitignore): Prevenção de vazamento de credenciais.
 
 - Infraestrutura como Código (requirements.txt): Garantia de reprodutibilidade do ambiente especificando o ecossistema completo do LangChain para evitar quebras de versão entre submódulos.
+
+## ⚖️ Licença e Isenção de Responsabilidade
+
+Este projeto é distribuído sob a **Licença Apache 2.0**. Ele foi desenvolvido com fins estritamente **didáticos** e para demonstração técnica de arquiteturas de **IA Agêntica**, **RAG** e **MCP**. 
+
+O software é fornecido "como está" (*as is*), sem garantias de qualquer tipo, expressas ou implícitas. Dado que a ferramenta utiliza modelos probabilísticos (LLMs), o autor não se responsabiliza por eventuais alucinações, erros de análise ou pelo uso indevido das informações extraídas. A responsabilidade pelo uso ético dos dados e pela conformidade com as normas do Portal da Transparência é inteiramente do usuário.
